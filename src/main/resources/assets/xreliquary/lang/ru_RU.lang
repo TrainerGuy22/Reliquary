@@ -6,208 +6,205 @@ tooltip.absorb={{!colors.light_purple}}ПКМ, чтобы переключить
 tooltip.absorb_active={{!colors.purple}}Автомагически поглощает {{item}}{{!colors.purple}}.
 tooltip.absorb_tear={{!colors.purple}}Всегда оставляет стак предметов в инвентаре.
 
-tooltip.tear=Сейчас содержит {{!colors.yellow}}{{item}}{{!colors.light_gray}}.
-tooltip.tear_empty=Ничего не содержит.
-tooltip.tear_quantity=Сейчас содержит {{!colors.yellow}}{{amount}}{{!colors.light_gray}} {{!colors.yellow}}{{item}}{{!colors.light_gray}}.
+item.alkahest_tome.name=Книга Алкагеста
+item.alkahest_tome.tooltip={{!colors.rose}}Заряд: {{redstoneAmount}}/{{redstoneLimit}};ПКМ, чтобы прочитать.
 
 tile.altar_idle.name=Алтарь света
+tile.altar_idle.tooltip=Положите красный камень,;чтобы вырастить светящийся камень.
 tile.altar.name=Алтарь света
-tile.lilypad.name=Кувшинка плодородия
-tile.wraith_node.name=Призрачный узел
-tile.interdiction_torch.name={{!yellow}}Факел запрета
-tile.interdiction_torch.tooltip=Кажется отпугивает монстров. Ясный.
+
+item.angelheart_vial.name=Флакон с ангельским сердцем
+item.angelheart_vial.tooltip=Воскрешает Вас один раз;и разбивается.
+
+item.angelic_feather.name=Ангельское перо
+item.angelic_feather.tooltip=Защищает Вас от падений,;за счёт голода.
+
 tile.apothecary_cauldron.name=Фармацевтический котёл
 tile.apothecary_cauldron.tooltip=Используется для варки зелий, со стилем.
 tile.apothecary_mortar.name=Фармацевтический ступа
 tile.apothecary_mortar.tooltip=Используется для измельчения эссенции;зелий, со стилем.
 
-item.handgun.name=Пистолет охотника
-item.handgun.tooltip=За великую справедливость.;ПКМ, чтобы стрелять, удерживайте, чтобы перезарядить.
+item.attraction_potion.name=Сыворотка Афродиты
+item.attraction_potion.tooltip=Сближает животных.
+
+item.fertile_potion.name=Зелье плодородия
+item.fertile_potion.tooltip=Заставляет растения расти.
+
+item.bullet_0.name=Пустая оболочка
+item.bullet_1.name=Обычная пуля
+item.bullet_2.name=Заклинательная пуля
+item.bullet_2.tooltip=Эффективна против нежити.
+item.bullet_3.name=Пламенная пуля
+item.bullet_3.tooltip=Наносит урон только огнём.
+item.bullet_4.name=Пуля Края
+item.bullet_4.tooltip=Пробивает врагов насквозь, ищет цели.
+item.bullet_5.name=Контузящая пуля
+item.bullet_5.tooltip=Наносит урон на небольшой площади.
+item.bullet_6.name=Разрушающая пуля
+item.bullet_6.tooltip=Наносит урон на большой площади.
+item.bullet_7.name=Ищущая пуля
+item.bullet_7.tooltip=Ищет свои цели.
+item.bullet_8.name=Песчаная пуля
+item.bullet_8.tooltip=Ослепляет цель,;раздражает криперов.
+item.bullet_9.name=Штормовая пуля
+item.bullet_9.tooltip=Мощнее во время шторма,;заряжает криперов.
+
+item.destruction_catalyst.name=Катализатор уничтожения
+item.destruction_catalyst.tooltip=Использует порох для уничтожения блоков.;{{!colors.yellow}}Заряд: {{charge}}
+
+item.emperor_chalice.name=Чаша императора
+item.emperor_chalice.tooltip=Бесконечное ведро воды.;Включите, чтобы собирать воду.;Отключите, чтобы сливать воду.;Питьё восстанавливает голод;за счёт здоровья.
+
+item.elsewhere_flask.name=Универсальная фляга
+item.elsewhere_flask.tooltip=Одновременно впитывает зелья в себя.{{contents}}
+
+item.ender_staff.name=Посох Края
+item.ender_staff.tooltip=Shift + ЛКМ, чтобы менять режимы:;[Cast, Long Cast, Node Warp or Bind];{{!colors.purple}}Жемчуг Края: {{charge}};{{!colors.purple}}{{phrase}}{{position}}
+
+item.fortune_coin.name=Монетка Фортуны
+item.fortune_coin.tooltip=Притягивает предметы и опыт.;Shift+ПКМ, чтобы активировать.;Удерживайте ПКМ, для супер-притяжения.
+
+item.glacial_staff.name=Ледниковый посох
+item.glacial_staff.tooltip=Кидает снежки, замораживает врагов;и землю, на которой; Вы стоите.;{{!colors.blue}}Заряд: {{charge}}
+
+item.glowing_water.name=Светящаяся вода
+item.glowing_water.tooltip=Наносит урон нежити.
+
+item.glowing_bread.name=Светящийся хлеб
+item.glowing_bread.tooltip=Полностью восстанавливает голод.
 
 item.gun_part_0.name=Рукоять
 item.gun_part_1.name=Ствол
 item.gun_part_2.name=Курок
-item.gun_part_0.tooltip=Это одна из трёх частей пистолета.
-item.gun_part_1.tooltip=Это одна из трёх частей пистолета.
-item.gun_part_2.tooltip=Это одна из трёх частей пистолета.
 
-item.bullet_0.name=Пустая оболочка
-item.bullet_0.tooltip=Пустая гильза.
-item.bullet_1.name=Обычная пуля
-item.bullet_1.tooltip=Обычная пуля.
-item.bullet_2.name=Заклинательная пуля
-item.bullet_2.tooltip=Эффективен против нежити.
-item.bullet_3.name=Пламенная пуля
-item.bullet_3.tooltip=Наносит урон только огнём.
-item.bullet_4.name=Пуля Края
-item.bullet_4.tooltip=Прокалывает врагов, ищет цели.
-item.bullet_5.name=Шокирующая пуля
-item.bullet_5.tooltip=Наносит урон на небольшой площади.
-item.bullet_6.name=Разрушающая пуля
-item.bullet_6.tooltip=Создаёт значительный взрыв.
-item.bullet_7.name=Ищущая пуля
-item.bullet_7.tooltip=Ищет свои цели.
-item.bullet_8.name=Песчаная пуля
-item.bullet_8.tooltip=Ослепляет цель. Уничтожает криперов.
-item.bullet_9.name=Штормовая пуля
-item.bullet_9.tooltip=Вызывает атмосферную странность.
+item.handgun.name=Пистолет охотника
+item.handgun.tooltip=За великую справедливость.;ПКМ, чтобы стрелять, удерживайте, чтобы перезарядить.
+
+item.harvest_rod.name={{!colors.green}}Палка жатвы
+item.harvest_rod.tooltip=ПКМ, чтобы удобрить,;собирает ближайшие растения.;{{!colors.green}}Заряд: {{charge}}
+
+item.heart_pearl_0.name={{!colors.rose}}Жемчуг зомби
+item.heart_zhu_0.name={{!colors.rose}}Zombie Nian Zhu
+item.heart_zhu_0.tooltip=Зомби не видят Вас с ним.
+item.heart_pearl_1.name={{!colors.white}}Жемчуг скелета
+item.heart_zhu_1.name={{!colors.white}}Skeleton Nian Zhu
+item.heart_zhu_1.tooltip=Скелеты не видят Вас с ним.
+item.heart_pearl_2.name={{!colors.gray}}Жемчуг скелета-иссушителя
+item.heart_zhu_2.name={{!colors.gray}}Wither Skeleton Nian Zhu
+item.heart_zhu_2.tooltip=Скелеты-иссушители не видят Вас с ним.
+item.heart_pearl_3.name={{!colors.light_green}}Жемчуг крипера
+item.heart_zhu_3.name={{!colors.light_green}}Creeper Nian Zhu
+item.heart_zhu_3.tooltip=Криперы не видят Вас с ним.
+
+item.hero_medallion.name=Медальон героя
+item.hero_medallion.tooltip=Содержит Ваш опыт.;ПКМ, чтобы забрать уровни опыта.;{{!colors.green}}Опыт: {{experience}}
+
+item.holy_hand_grenade.name=Святая граната
+item.holy_hand_grenade.tooltip=Мощная взрывчатка, которая;не ломает блоки и не наносит урон владельцу.
+
+item.ice_magus_rod.name=Ледяная палочка мага
+item.ice_magus_rod.tooltip=Кидает губительные снежки.;{{!colors.blue}}Заряд: {{charge}}
+
+item.infernal_chalice.name=Адская чаша
+item.infernal_chalice.tooltip=Защищает Вас от лавы.;{{!colors.red}}Содержит: {{amount}} мВ лавы;Shift + ПКМ, чтобы включить режим поглащения.;Отключите, чтобы сливать лаву.
+
+item.infernal_claws.name={{!colors.red}}Адские когти
+item.infernal_claws.tooltip=Поглощает урон от огня;за счёт голода.
+
+item.infernal_tear.name={{!colors.red}}Адская слеза
+item.infernal_tear.tooltip=Сжигает предметы в опыт.;Shift + ПКМ, чтобы активировать.
+
+tile.interdiction_torch.name={{!colors.yellow}}Факел запрета
+tile.interdiction_torch.tooltip=Отпугивает существ и отбрасывает любые снаряды.
+
+item.kraken_shell.name=Панцирь кракена
+item.kraken_shell.tooltip=Поглощает урон от удушения;за счёт голода.
+
+item.lantern_of_paranoia.name={{!colors.yellow}}Фонарь паранойи
+item.lantern_of_paranoia.tooltip=Автоматически ставит факелы в;неосвещённой территории.;Shift + ПКМ, чтобы активировать.
+
+tile.lilypad.name=Кувшинка плодородия
+
+item.magicbane.name=Магическая погибель
+item.magicbane.tooltip=Повышает свою прочность;после каждого зачарования.
 
 item.magazine_0.name=Пустой магазин
 item.magazine_1.name=Обычный магазин
 item.magazine_2.name=Заклинательный магазин
 item.magazine_3.name=Пламенный магазин
 item.magazine_4.name=Магазин Края
-item.magazine_5.name=Шокирующий магазин
+item.magazine_5.name=Контузящий магазин
 item.magazine_6.name=Разрушающий магазин
 item.magazine_7.name=Ищущий магазин
 item.magazine_8.name=Песочный магазин
 item.magazine_9.name=Штормовой магазин
 
-item.magazine_0.tooltip=Просто пустой магазин.
-item.magazine_1.tooltip=Обыкновенные пули.
-
 item.mercy_cross.name=Крест милосердия
-item.mercy_cross.tooltip="Чёрт, эта вещица тяжелая!";Это мой друг, потому что;он полон милосердия.
-item.sojourner_staff.name=Посох странника
-item.sojourner_staff.tooltip=Поглощает факелы, может ставить их;на дальние дистанции, но стоимость возрастает.
-item.alkahest_tome.name=Книга Алкагеста
-item.alkahest_tome.tooltip={{!rose}}Красный камень: {{redstoneAmount}}/{{redstoneLimit}};Она говорит: выполняй основы, среднюю или;продвинутую науку о Алкагесте, чтобы это ни было.
-item.holy_hand_grenade.name=Святая граната
-item.holy_hand_grenade.tooltip=Убивает мобов, а не блоки;или того, кто бросил её.
-item.fortune_coin.name=Монетка Фортуны
-item.fortune_coin.tooltip=Притягивает ближайшие предметы и опыт.;ЛКМ, чтобы включить.
-item.glowing_water.name=Святая вода
-item.glowing_water.tooltip=Убивает нежить. Светящийся материал.;Используется во многих рецептах.
-item.glowing_bread.name=Святой хлеб
-item.glowing_bread.tooltip=Светящийся и вкусный.
+item.mercy_cross.tooltip=Наносит дополнительный урон;нежити.
+
 item.midas_touchstone.name=Пробный камень Мидаса
-item.midas_touchstone.tooltip=Ремонтирует предметы из золота,;потребляет светящуюся пыль.
-item.emperor_chalice.name=Чаша императора
-item.emperor_chalice.tooltip=Бесконечное ведро воды;если Вы не выпьете его;Обменивает жизнь на голод...
+item.midas_touchstone.tooltip=Чинит золотые предметы.;{{!colors.yellow}}Заряд: {{charge}}
+
+item.mob_ingredient_0.name=Ребро
+item.mob_ingredient_1.name=Иссушенное ребро
+item.mob_ingredient_2.name=Хелицера
+item.mob_ingredient_3.name=Железа катализации
+item.mob_ingredient_4.name=Жемчуг слизня
+item.mob_ingredient_5.name=Крыло летучей мыши
+item.mob_ingredient_6.name=Сердце зомби
+item.mob_ingredient_7.name=Расплавленное ядро
+item.mob_ingredient_8.name=Око шторма
+item.mob_ingredient_9.name=Эссенция плодородия
+item.mob_ingredient_10.name=Замороженное ядро
+item.mob_ingredient_11.name=Туманное сердце
+item.mob_ingredient_12.name=Клюв спрута
+item.mob_ingredient_13.name=Адский коготь
+item.mob_ingredient_14.name=Фрагмент панциря Кракена
+item.mob_ingredient_15.name=Багровая ткань
+
+item.phoenix_down.name=Перо феникса
+item.phoenix_down.tooltip==Воскрешает Вас один раз;с полным здоровьем и превращается;в ангельское перо.
+
+item.potion.name=Сгущённое зелье
+item.potion.tooltip=Эффекты:;{{effects}}
+
+item.potion_essence.name=Зелье эссенции
+item.potion_essence.tooltip=Эффекты:;{{effects}}
+
+item.pyromancer_staff.name={{!colors.red}}Посох пироманта
+item.pyromancer_staff.tooltip=Shoots blaze and ghast;fireballs, creates firebursts;and lights fires.;{{!colors.red}}Charges: {{charges}};{{!colors.red}}Blaze: {{blaze}};Shift + Left-click to change modes.
+
+item.rending_gale.name={{!colors.yellow}}Rending Gale
+item.rending_gale.tooltip=Fly, push and pull mobs, or shoot;lightning while raining.;Shift + Left-click changes modes.;{{!colors.yellow}}Charge: {{charge}}
+
+item.rod_of_lyssa.name=Удочка бешенства
+item.rod_of_lyssa.tooltip=A magic fishing rod that can be;used to reel in items and pick pockets.
+
 item.salamander_eye.name=Глаз Саламандры
-item.salamander_eye.tooltip=Рассеивает огненные шары ифритов и отражает;огненные шары гаста, когда удерживается.;Тушит огонь на и вокруг Вас.
-item.destruction_catalyst.name=Катализатор уничтожения
-item.destruction_catalyst.tooltip=Потребляет не менее 3 пороха по нажатию ПКМ.;Взрывает 3x3x3 куб за целевым кубом.;{{!white}}Уничтожает только обычные блоки.
-item.ice_magus_rod.name=Ледяная палочка мага
-item.ice_magus_rod.tooltip=Потребляет снежки в инвентаре.;Делает снежки немного холоднее...
-item.magicbane.name=Магическая погибель
-item.magicbane.tooltip=Нержавеющий, заколдованный артефакт.;К сожалению, неразрушимый.
-item.witherless_rose.name=Иссушающая роза
-item.witherless_rose.tooltip=Звёзды Нижнего мира зачаровывают эту розу;носитель защищён от иссушения.
+item.salamander_eye.tooltip=Dispels blaze fireballs and reflects;ghast fireballs while held.;Puts out fires on and around you.
+
+item.serpent_staff.name={{!colors.green}}Посох Змея
+item.serpent_staff.tooltip=All that nasty stuff;from a Kraken's spit,;thrown at your enemies.;Drains life on strike.
+
+item.shears_of_winter.name=Ножницы зимы
+item.shears_of_winter.tooltip=Магические ножницы, которые срывают;листву с деревьев холодом.
+
+item.sojourner_staff.name=Посох странника
+item.sojourner_staff.tooltip=Поглощает факелы, может ставить их;на дальние дистанции, но стоимость возрастает.;{{!colors.yellow}}Содержит: {{phrase}};{{!colors.rose}}Ставит: {{!colors.yellow}}{{placing}}
+
 item.twilight_cloak.name=Сумеречный плащ
-item.twilight_cloak.tooltip=Делает Вас невидимым ночью.
-item.wraith_eye.name=Призрачный глаз
-item.wraith_eye.tooltip=ПКМ призрачным глазом привязывается к этому;позволяет вернуться к этому по Вашему желанию,;за счёт жемчуга Края.;{{!purple}}{{phrase}} {{position}}.
-item.void_tear_empty.name=Пустая пустотная слеза
-item.void_tear_empty.tooltip=Пустая пустотная слеза; ПКМ поглощает предметы инвентаря.
-item.void_tear.name=Пустотная слеза
-item.hero_medallion.name=Медальон героя
-item.hero_medallion.tooltip={{!green}}Опыт: {{experience}};Когда Вам просто необходимо;куда-то положить;весь этот опыт.
-item.ender_staff.name=Посох Края
-item.ender_staff.tooltip=Потребляет жемчуг Края из инвентаря.;Бросает его немного дальше.
-item.angelic_feather.name=Ангельское перо
-item.angelic_feather.tooltip=Защищает Вас от падений,;за счёт голода.
-item.phoenix_down.name=Пух феникса
-item.phoenix_down.tooltip=Воскрешает Вас один раз;даёт полное здоровье и превращается;в ангельское перо.
-item.crimson_cloth.name=Багровая ткань
-item.crimson_cloth.tooltip=Кровавая красная ткань, пропитанная;алхимическими смесями.
-item.dragon_talon.name=Драконий коготь
-item.dragon_talon.tooltip=Искусственный драконий коготь,;одного не достаточно для использования.
-item.dragon_claws.name=Драконьи когти
-item.dragon_claws.tooltip=Поглощают урон от огня,;расходуя голод.
-item.claws_of_the_firedrinker.name={{!red}}Когти огнеглотателя
-item.claws_of_the_firedrinker.tooltip=Потребляет урон от огня (ням!);поглощает повреждения лавы,;расходуя голод.
-item.squid_beak.name=Клюв спрута
-item.squid_beak.tooltip=Где-то там;очень грустный, очень;безротый спрут.
-item.kraken_shell_fragment.name=Фрагмент панциря Кракена
-item.kraken_shell_fragment.tooltip=Клюв морского;монстра, созданный в;гладкую оболочку.
-item.kraken_shell.name=Панцирь Кракена
-item.kraken_shell.tooltip=Повышает подвижность;в воде.;Поглощает урон от утопления,;расходуя голод.
-item.angelheart_vial.name=Флакон с ангельским сердцем
-item.angelheart_vial.tooltip=Воскрешает Вас один раз;и ломается.
-item.elsewhere_flask.name=Универсальная фляга
-item.elsewhere_flask.tooltip=Одновременно впитывает зелья в себя.{{contents}}
-item.serpent_staff.name={{!green}}Посох Змея
-item.serpent_staff.tooltip=All that nasty stuff;from a Kraken's spit,;thrown at your enemies.
+item.twilight_cloak.tooltip=Делает Вас невидимым в темноте.
+
 item.witch_hat.name={{!colors.yellow}}Шляпа ведьмы
-item.witch_hat.tooltip=Всё, что осталось от этой отвратительной ведьмы.;Интересно, смогу ли я использовать её как-то.
-item.infernal_tear_empty.name={{!colors.yellow}}Пустая адская слеза
-item.infernal_tear_empty.tooltip=Пустая адская слеза, ПКМ;поглощает основной предмет инвентаря.
-item.infernal_tear.name={{!colors.red}}Адская слеза
-item.infernal_tear.tooltip=Сжигает предметы в их сырую эссенцию.;Может быть хорошим ингредиентом для зельеварения.
-item.lantern_of_paranoia.name={{!colors.yellow}}Фонарь паранойи
-item.lantern_of_paranoia.tooltip=Автоматически ставит факелы в;неосвещённой территории.
 
-item.potion_0.name=Сгущённая брызгающая сыворотка
-item.potion_1.name=Зелье любви #9
-item.potion_2.name=Брызгающая отравляющая сыворотка
-item.potion_3.name=Брызгающая кислотная сыворотка
-item.potion_4.name=Брызгающая сыворотка смятения
-item.potion_5.name=Брызгающая замедляющая сыворотка
-item.potion_6.name=Брызгающая ослабляющая сыворотка
-item.potion_7.name=Брызгающая иссушающая сыворотка
-item.potion_8.name=Брызгающая ослепляющая сыворотка
-item.potion_9.name=Брызгающая губительная сыворотка
-item.potion_10.name=Брызгающая удобряющая сыворотка
-item.potion_11.name=Пустой флакон
-item.potion_12.name=Сгущённый растворитель
-item.potion_13.name=Эликсир скорости
-item.potion_14.name=Эликсир копания
-item.potion_15.name=Эликсир силы
-item.potion_16.name=Эликсир лечения
-item.potion_17.name=Эликсир прыганья
-item.potion_18.name=Эликсир регенерации
-item.potion_19.name=Эликсир сопротивления
-item.potion_20.name=Эликсир огненного оберега
-item.potion_21.name=Эликсир дыхания
-item.potion_22.name=Эликсир невидимости
-item.potion_23.name=Эликсир инфравиденья
-item.potion_24.name=Абляционная защита
-item.potion_25.name=Алхимическая сила
-item.potion_26.name=Алхимическая быстрота
-item.potion_27.name=Великое лекарство
-item.potion_28.name=Сыворотка Сталкера
-item.potion_29.name=Флакон обычной воды
+item.void_tear_empty.name=Пустая пустотная слеза
+item.void_tear.name=Пустотная слеза
 
-item.potion_0.toltip=Базовое зелье для создания;сгущения брызгающих флаконов.
-item.potion_1.tooltip=Заставляет животных;хотеть знакомится.
-item.potion_2.tooltip=Отравляет мобов;на 45 секунд.
-item.potion_3.tooltip=Наносит 8 урона,;даже нежити.
-item.potion_4.tooltip=Вызывает смятение;на 45 секунд.
-item.potion_5.tooltip=Вызывает медлительность;на 45 секунд.
-item.potion_6.tooltip=Вызывает слабость;на 45 секунд.
-item.potion_7.tooltip=Вызывает эффект иссушения;на 45 секунд.
-item.potion_8.tooltip=Вызывает слепоту;на 45 секунд.
-item.potion_9.tooltip=Замедляет, ослабляет и;отравляет на 45 секунд.
-item.potion_10.tooltip=Выращивает растения;в широком квадрате.
-item.potion_11.tooltip=Пустой флакон для;сгущения зелий.
-item.potion_12.tooltip=Базовое зелье для;сгущения зелий.
-item.potion_13.tooltip=Сопротивление огню и;урону в течение 3 минут.
-item.potion_14.tooltip=Копайте и ломайте быстрее;в течение 5 минут.
-item.potion_15.tooltip=Урон увеличивается на 3;в течение 5 минут.
-item.potion_16.tooltip=Лечит 2 сердца.;(4 урона)
-item.potion_17.tooltip=Прыгайте выше;в течение 5 минут.
-item.potion_18.tooltip=Регенерация здоровья;в течение 45 секунд.
-item.potion_19.tooltip=Сопротивление урону;в течение 3 минут.
-item.potion_20.tooltip=Сопротивление огню;в течение 3 минут.
-item.potion_21.tooltip=Дышите под водой;в течение 3 минут.
-item.potion_22.tooltip=Невидимость;в течение 3 минут.
-item.potion_23.tooltip=Смотрите в темноте;в течение 3 минут.
-item.potion_24.tooltip=Сопротивление огню и;урону в течение 3 минут.
-item.potion_25.tooltip=Повышение силы и скор. копания;в течение 3 минут.
-item.potion_26.tooltip=Повышение скорости и прыжка;в течение 3 минут.
-item.potion_27.tooltip=Лечит, регенерирует и;исцеляет любую хворь.
-item.potion_28.tooltip=Отправляет Вас;в тени.
-item.potion_29.tooltip=Это флакон;простой воды.
+tooltip.tear=Сейчас содержит: {{!colors.yellow}}{{item}}{{!colors.light_gray}}.
+tooltip.tear_empty=ПКМ, чтобы захватить тот предмет, которого у Вас больше.
+tooltip.tear_quantity=Сейчас содержит: {{!colors.yellow}}{{amount}}{{!colors.light_gray}} {{!colors.yellow}}{{item}}{{!colors.light_gray}}.
 
-potion.haste.name=Копание
-potion.leaping.name=Прыганье
-potion.strength.name=Сила
-potion.movespeed.name=Скорость
-potion.nightvision.name=Зрение
-potion.invisibility.name=Исчезание
-potion.heal.name=Лечение
-potion.regeneration.name=Регенерация
-potion.resistance.name=Панцирь
-potion.fireresistance.name=Огнестойкость
-potion.milk.name=Исцеление
+item.witherless_rose.name=Неиссушающая роза
+item.witherless_rose.tooltip=Звёзды Нижнего мира зачаровывают эту розу,; защищая носителя от иссушения.
+
+tile.wraith_node.name=Призрачный узел

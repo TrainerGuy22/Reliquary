@@ -165,7 +165,7 @@ item.mob_ingredient_15.name=Crimson Cloth
 item.phoenix_down.name=Phoenix Down
 item.phoenix_down.tooltip=Resurrects you once with;full health and reverts;to an Angelic Feather.
 
-item.potion.name=Condensed Potion
+item.potion.name=Condensed Potion Vial
 item.potion.tooltip=Effects:;{{effects}}
 
 item.potion_essence.name=Potion Essence
